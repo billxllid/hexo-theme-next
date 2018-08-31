@@ -503,10 +503,10 @@ valine:
   enable: true
   appid: M6fzpAd4BezSjOOfgzthUFQY-gzGzoHsz # your leancloud application appid
   appkey: PAgCCRfx8UTdJt7TY5I3N2vi # your leancloud application appkey
-  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: true # Verification code
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
   placeholder: '嗨! 留下你的小脚印吧 ~' # comment box placeholder
-  avatar: mm # gravatar style
+  avatar: identicon # gravatar style
   guest_info: nick,mail # custom comment header
   pageSize: 5 # pagination size
 
